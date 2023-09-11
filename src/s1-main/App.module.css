@@ -1,5 +1,9 @@
 .App {
     --header_height: 60px;
+    display: flex;
+    padding: 131px 0 106px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .hw {

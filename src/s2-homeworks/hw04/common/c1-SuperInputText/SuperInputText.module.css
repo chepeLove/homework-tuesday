@@ -1,20 +1,37 @@
 .input:focus {
+    border: none;
+    outline: 1px solid #D1D1D1;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 5px;
 }
 
 .superInput {
+
 }
 
 .errorInput {
+    outline: 1px solid  rgba(204, 20, 57, 1);
 }
 
 .errorInput:focus {
+    outline: 1px solid  rgba(204, 20, 57, 1);
 }
 
 .error {
+    color: #CC1439;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
 }

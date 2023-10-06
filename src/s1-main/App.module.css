@@ -2,7 +2,7 @@
     --header_height: 60px;
     display: flex;
     flex-direction: column;
-    padding: 131px 40px 106px 40px;
+    padding: 0 40px 106px 40px;
     justify-content: space-between;
     gap: 20px;
 }

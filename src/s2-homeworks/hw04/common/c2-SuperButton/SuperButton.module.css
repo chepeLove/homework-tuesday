@@ -1,23 +1,27 @@
 .button {
     border: none;
+    cursor: pointer;
     padding: 5px 24px;
     border-radius: 3px;
-    color: #FFF;
     font-weight: 600;
-
+    color: #FFF;
+    background-color: #06C;
 }
 
 .disabled {
     opacity: 0.5;
+    color: #FFF;
 }
 
 .secondary {
     color: #06C;
     background-color: #FFFFFF;
+    outline: 1px solid  #06C;
 }
 
 .default {
- background-color: #06C;
+    /*color: #FFF;*/
+    /*background-color: #06C;*/
 }
 
 .red {

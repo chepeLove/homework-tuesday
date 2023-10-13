@@ -5,14 +5,15 @@
 .sidebar.open {
     display: inline-block;
     width: 317px;
-    height: 100vh;
     position: relative;
     z-index: 1;
 }
 
 .background {
-    opacity: 0.3;
-    background: #000;
+    box-shadow: cadetblue;
+    width: 100%;
+    height: 100%;
+    /*background: #000;*/
 }
 
 .nav {

@@ -19,9 +19,9 @@ function HW11() {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
         if (Array.isArray(value)){
             setValue1(value[0])
-            value[1] > value[0] && setValue2(value[1])
+            setValue2(value[1])
         }else {
-            value < value2 && setValue1(value)
+            setValue1(value)
         }
     }
 

@@ -1,7 +1,13 @@
 .tech {
-
+    padding: 5px;
 }
 
 .loading {
-
+    font-family: Roboto, sans-serif;
+    width: 370px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: right;
+    color: #4D4D4D;
 }
